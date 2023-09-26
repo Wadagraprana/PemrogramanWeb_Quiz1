@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LBH Nusantara Jaya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="Profile">
+            <div class="wrapper_profile">
+                <td rowspan="5" align="center"><img src="LBH.png" width="100"></td>
+            </div>
+        </div>
+        <ul class="nav">
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="#">Layanan</a></li>
+        <li id="Pages">
+                <a href="#">Pages</a>
+                <ul class="subnav">
+                    <li><a href="#">Portofolio</a></li>
+                    <li><a href="#">Testimoni</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </header>
+
+    <section id="content">
+        <h2>LBH Nusantara Jaya</h2>
+        <p>Memberikan Pelayanan Hukum Gratis Bagi Masyarakat Kurang Mampu</p>
+    </section>
+
+    <section id="services">
+        <h2>Layanan Hukum</h2>
+        <ul>
+            <li>Bantuan Hukum</li>
+            <li>Pendampingan Hukum</li>
+            <li>Konsultasi Hukum</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portofolio</h2>
+        <div class="portfolio-item">
+            <img src="Konsultasi Hukum.jpg" alt="Deskripsi Gambar 1">
+            <p>Layanan jasa konsultan hukum kami berikan sesuai dengan permasalah dan atau kasus yang sedang dihadapi oleh klien, sehingga akan menghasilkan upaya hukum yang efektif dan maksimal untuk menyelesaikan pemasalahan atau kasus hukum yang ada. </p>
+        </div>
+        <div class="portfolio-item">
+            <img src="Pendampingan Hukum.jpg" alt="Deskripsi Gambar 2" width="600px">
+            <p>LBH hadir membantu anda dalam pendampingan proses mediasi</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Silakan hubungi kami melalui formulir kontak di bawah ini:</p>
+        <form action="proses.php" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="4" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 LBH Nusantara Jaya. Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+</html>
